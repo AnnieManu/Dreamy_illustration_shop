@@ -1,16 +1,18 @@
-html, body, *{
-margin:0!important;
-padding:0!important;
-box-sizing: content-box!important;
-}
-// html, body
-// ::after,
-// ::before{
-//   margin:0!important;
-//   padding:0!important;
-//   box-sizing:content-box;
+// html, body, *{
+// // margin:0!important;
+// // padding:0!important;
+// //box-sizing: content-box!important;
 // }
-
+// // html, body
+// // ::after,
+// // ::before{
+// //   margin:0!important;
+// //   padding:0!important;
+// //   box-sizing:content-box;
+// // }
+body{
+  overflow-x:hidden;
+}
 .navbar{
  .container{
  #logo{
@@ -90,8 +92,5 @@ box-sizing: content-box!important;
     }
 }
    
-#gallery{
-  img{
-   padding:10px!important;
-  }
-}
+
+
