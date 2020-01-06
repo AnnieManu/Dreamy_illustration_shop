@@ -109,5 +109,17 @@ body{
 
     }
    }
+   #faq{
+     .card-body{
+       background: #333;
+     }
+     .card-header{
+       background:#333;
+     }
+      a{
+        color:#fff;
+        text-underline:none;
+      }
+   }
 
 
